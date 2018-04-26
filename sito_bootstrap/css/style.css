@@ -1,0 +1,85 @@
+
+
+.bg-light {
+    background-color: #fff !important;
+}
+.carousel {
+    position: relative;
+    top : 127px;
+}
+
+.carousel-item {
+  min-height: 600px;
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+}
+
+.carousel-indicators .active {
+    background-color: #FB8C00;
+}
+.carcolor {
+  color: #FB8C00;
+}
+
+/* .hovermenu{
+  border-top: 2px solid transparent;
+}
+.hovermenu:hover{
+  border-top: 2px solid #FB8C00;
+
+}
+.hovermenu:active{
+  border-bottom: 2px solid #FB8C00 !important;
+
+} */
+.nav-item {
+  padding: 8px;
+}
+.active{
+  color: #FB8C00 ;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav
+.nav-link.active, .navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #FB8C00 ;
+}
+.nav-item > a:hover {
+  color: #FB8C00 !important;
+}
+
+.rowcard{
+  margin-left: 12px;
+  margin-right: 12px;
+}
+.card{
+  border: 0px !important;
+  box-shadow: 5px 1px 20px 5px #BDBDBD;
+  border-radius: 8px;
+  background-color: #FFF;
+}
+.card:hover{
+  box-shadow: 3px 10px 15px 3px #91949638;
+}
+.card-img-top{
+  border-radius: 8px 8px 0px 0px;
+
+}
+
+.btn-primary{
+  background-color: #FFF3E0;
+  border-color: #F57C00;
+  color: #F57C00;
+}
+.btn-primary:hover{
+  background-color: #FB8C00;
+  border-color: #FB8C00;
+}
+
+/* da usare per avere gli item menu colorati in hover.... */
+/*
+.nav-item:hover{
+  background-color: #FB8C00;
+  border-radius: 10px;
+}
+*/
